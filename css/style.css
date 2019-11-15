@@ -9,7 +9,7 @@ body {
   width: 80%;
   height: 100%;
   margin: auto;
-  font-family: 'Alatsi', sans-serif;
+  font-family: 'Bitter', serif;
 }
 
 /* header */
@@ -20,6 +20,7 @@ body {
 /* main */
 .overlay {
   position: relative;
+  display: inline-block;
   width: 400px;
   height: 225px;
 }
@@ -42,6 +43,7 @@ body {
 }
 .overlay:hover .layover {
   background-color: transparent;
+  cursor: pointer;
 }
 
 .city-title {
@@ -55,27 +57,44 @@ body {
   /* vertical-align: middle;
   line-height: 24px; */
   text-align: center;
+  font-family: 'Mukta', sans-serif;
   color: white;
 }
 
 .london {
   background-image: url(../img/london.jpg);
-  font-family: 'Literata', serif;
 }
 
 .los-angeles {
   background-image: url(../img/los-angeles.jpg);
-  font-family: 'Libre Baskerville', serif;
 }
 
 .paris {
   background-image: url(../img/paris.jpg);
-  font-family: 'Karla', sans-serif;
 }
 
 .rome {
   background-image: url(../img/rome.jpg);
-  font-family: 'Bitter', serif;
+}
+
+.berlin {
+  background-image: url(../img/berlin.jpg);
+}
+
+.madrid {
+  background-image: url(../img/madrid.jpg);
+}
+
+.miami {
+  background-image: url(../img/miami.jpg);
+}
+
+.tokyo {
+  background-image: url(../img/tokyo.jpg);
+}
+
+.toronto {
+  background-image: url(../img/toronto.jpg);
 }
 
 /* footer */
