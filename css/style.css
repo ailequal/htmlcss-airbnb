@@ -30,6 +30,7 @@ body {
   display: inline-block;
   width: 400px;
   height: 225px;
+  margin: 10px;
 }
 
 .city {
