@@ -16,22 +16,24 @@ body {
 
 /* header */
 .menu-bar {
-  width: 100%;
-  height: 30px;
+  width: 100vw;
+  height: 4vh;
 }
 
 .menu-bar-left > ul {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   list-style-type: none;
+  z-index: 1;
 }
 
 .menu-bar-right > ul {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   list-style-type: none;
+  z-index: 1;
 }
 
 .menu-bar ul > li {
